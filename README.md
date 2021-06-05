@@ -1,2 +1,2 @@
-# Mushroom Classification
+# Brain Tumor Classification
 Using a neural network to classify types of brain tumors. 
