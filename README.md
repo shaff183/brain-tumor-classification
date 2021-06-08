@@ -1,2 +1,2 @@
-# Brain Tumor Classification
-Using a neural network to classify types of brain tumors. 
+# Zoo Animal Classification
+Using Machine Learning to predict zoo animals. 
