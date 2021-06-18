@@ -51,26 +51,38 @@
       <div class="col-12 col-sm-12 col-md-12">
           <div class="jumbotron">
               <h1><strong>Support Vector Machine (SVM) Learning Algorithm</strong></h1>
-              <!-- <center> <img src="" height="250" width="400"></center>  -->
-              <p><strong>Introduction</strong></p>
-              <p>Intro content</p>
-              <p><strong>Implementation for a multi-classification model using an RBF Kernel</strong></p>
-              <p>Our dataset contained multiple animals types to be predicted based on the classifiers.</p>
+              <br>
+              <h3><strong>Introduction</strong></h3>
+              <p>Our dataset consisted of 101 different zoo animals with 16 different boolean attributes.</p>
+              <p>From these attributes, animals were then placed in 1 of 7 categories such as mammal, fish, or insect.</p>
+              <p>To implement a Support Vector Machine for building a multi-class classifier our team used two kernel functions, Polynomial and Radial Basis Function (RBF), and assessed the accuracy of each.</p>
+              <h3><strong>Implementation for a multi-classification model using a Radial Basis Function (RBF) Kernel</strong></h3><br>
               <center><img src="../resources/rbf_kernel_svm.jpg" alt="rbf_kernel_svm" width="600" height="400"></center>
               <ul>
               <li>67% of the time, the animal type was predicted correctly (Accuracy)</li>
               <li>67% of animal classifications were correctly predicted (Recall)</li>
               <li>Overall 54% harmonic average of precision and recall (F1 Score)</li>
               </ul>
-              <p><strong>Implementation for a multi-classification model using a Poly Kernel</strong></p>
-              <p>Our dataset contained multiple animals types to be predicted based on the classifiers.</p>
+              <br>
+              <p>A confusion matrix was used to evaluate the performance of the SVM Model using the RBF Kernel and returned the matrix below:</p>
+              <br>
+              <center><img src="../resources/rbf_confusion_matrix.jpg" alt="rbf_confusion_matrix" width="400" height="267"></center>
+              <br>
+              <p>This matrix shows the holistic view of how well our classification model performed and what kinds of errors it made. Due to the size of our dataset, the confusion matrix did not find any animals classified as an amphibian in the test set and returned an errant matrix.</p>
+              <h3><strong>Implementation for a multi-classification model using a Polynomial Kernel</strong></h3><br>
               <center><img src="../resources/poly_kernel_svm.jpg" alt="poly_kernel_svm" width="600" height="400"></center>
               <ul>
               <li>86% of the time, the animal type was predicted correctly (Accuracy)</li>
               <li>86% of animal classifications were correctly predicted (Recall)</li>
               <li>Overall 84% harmonic average of precision and recall (F1 Score)</li>
               </ul>
-
+              <br>
+              <p>A confusion matrix was used to evaluate the performance of the SVM Model using the Polynomial Kernel and returned the matrix below:</p>
+              <br>
+              <center><img src="../resources/poly_confusion_matrix.jpg" alt="poly_confusion_matrix" width="400" height="267"></center>
+              <br>
+              <p>This matrix shows the holistic view of how well our classification model performed and what kinds of errors it made. Due to the size of our dataset, the confusion matrix did not find any animals classified as an amphibian in the test set and returned an errant matrix.</p>
+              
           </div>
         </div>
       </div>
