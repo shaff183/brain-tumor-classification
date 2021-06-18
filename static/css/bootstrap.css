@@ -133,6 +133,7 @@
  p {
    margin-top: 0;
    margin-bottom: 1rem;
+   font-size: 1.25rem;
  }
  
  abbr[title],
@@ -153,6 +154,7 @@
  ol,
  ul {
    padding-left: 2rem;
+   font-size: 1.25rem;
  }
  
  ol,
@@ -160,6 +162,7 @@
  dl {
    margin-top: 0;
    margin-bottom: 1rem;
+   font-size: 1.25rem;
  }
  
  ol ol,
@@ -167,6 +170,7 @@
  ol ul,
  ul ol {
    margin-bottom: 0;
+   font-size: 1.25rem;
  }
  
  dt {
