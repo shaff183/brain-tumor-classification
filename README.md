@@ -14,4 +14,4 @@ In this repo we have stored all of the data and jupyter notebooks required to re
 1. From the Gitbash or Terminal session mentioned in step 3 of Cloning Instructions, run `source activate PythonData` followed by `jupyter notebook` to launch a Jupyter session
 2. Open the **".ipynb"** file that corresponds to the model you wish to run and select "Kernel > Restart & Run All" to build, train, and test the model using scikit-learn and pandas.
 
-To view the website, simply navigate to 
+To view the website, simply navigate to https://shaff183.github.io/zoo-animal-classification/
