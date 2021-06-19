@@ -42,7 +42,58 @@
       </div>
     </div>
   </nav>
-  <!-- Your Code Here -->
+  <br>
+
+  <div class="container">
+
+    <!-- Row 1 -->
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-12">
+          <div class="jumbotron">
+              <h1><strong>K Nearest Neighbor</strong></h1>
+              <br>
+              <br>
+              <figure>
+                <blockquote class="blockquote">
+                  <p class="mb-0">"The value of a data point is determined by the data points around it."</p>
+                
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                  Soner Yıldırım, Toward Data Science <cite title="Source Title">K-Nearest Neighbors (kNN) — Explained</cite>
+                </figcaption>
+              </figure>
+              <br>
+              <br>
+              <h3><strong>Introduction</strong></h3>
+              <p> • When setting up the test data, default separation was used meaning that 75% of the original data was used in the train set and 25% was in the test set.</p>
+              <p> • The kNN classifier object was tested in a for loop, testing odd numbers up until 20</p>
+              <br>
+              <h3><strong>Selecting a k Value</strong></h3>
+              <p>The for loop resulted in the following accuracy scores:</p>
+              <center><img src="../resources/knn_scores.JPG" alt="knn-scores" width="400" height="267"></center>
+              <br>
+              <center><img src="../resources/k_neighbor.png" alt="knn-graph" width="400" height="267"></center>
+              <br>
+              <ul>
+              <li>The most viable options seemed like between 2.5 - 7.5 and then after 17.5 </li>
+              <li>I decided to go with a k value of 5 because it had stability, had a good accuracy score, and gave the data options without being overwhelming </li>
+              <li>Compared to examples I had seen, it was interesting that the test scores were so varied. This indicates that the data might not be easily predictable. </li>
+              <li>A k value of 5 resulted in <b>97.5%</b>accuracy for the training set and <b>95.2%</b> accuracy for the testing set </li>
+              </ul>
+              <center><img src="../resources/k5-accuracy.JPG" alt="k5-accuracy"></center>
+              <br>
+              <br>
+              <h3><strong>Limitations:</strong></h3>
+              <p>• For this KNN demonstration I tried extensively to create scatter plot matrixes using both Seaborn and with Pandas Plotting. After creating both matrixes, it didn't seem beneficial to our dataset considering we had 7 different classifications.</p>
+              <p>• When displayed, both matrixes seemed very cluttered and didn't provide any additional knowledge or insight. For a different dataset this would have been very helpful to see visually where the KNNs lied.</p>
+              <p>• Our data also didn't have as many properties. Many data sets would group neighbors near eachother on blob or scatter plots, however our dataset had boolean logic to determine whether a given animal had a certain feature.</p>
+              <br>
+              <br>            
+              
+          </div>
+        </div>
+      </div>
+    </div>
 
 
 </body>
